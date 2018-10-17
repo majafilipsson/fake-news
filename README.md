@@ -6,15 +6,12 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 <!-- TODO:
         -create array for articles
-        -read about editorconfig
-        -create editorconfig
+
         -create 'function'/feature/way of ordering news items chronologically
         -create content files and fill with text
         -create image folder for images
         -read up on file_get_contents function and implement
         -figure out how to 'style' content which is stored in txt files
-
-        -decide on file structure and where everything should go
 
         -->
 
@@ -40,6 +37,12 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ### TO-DO list:
 
+##### October 18, 2018
+
 - [x] Plan project structure and create to-do list (README.md)
 - [ ] Read up on editorconfig
-- [ ] Create editoconfig
+- [ ] Create editorconfig
+- [ ] Create array for articles
+- [ ] Create array for authors
+- [ ] Create txt files for text content
+- [ ] Create img folder and add images
