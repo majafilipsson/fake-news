@@ -36,3 +36,10 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 - footer.php - will contain footer for index.php
 
 - functions.php - (not yet sure if to be created) (would contain functions) (would be used to require for example data.php using a function, so that only the function need be called in index.php, to simplify use of databases.) (in conslusion, will only be created if I decide to use database and sql, meaning, 2nd version if time allows.)
+
+
+### TO-DO list:
+
+- [x] Plan project structure and create to-do list (README.md)
+- [ ] Read up on editorconfig
+- [ ] Create editoconfig
