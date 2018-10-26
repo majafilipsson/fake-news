@@ -1,45 +1,43 @@
 <?php
 
+declare(strict_types=1);
+
 $articles = [
   [
-    'title' => '',
-    'content' => '',
-    'author' => '',
-    'pblsh-date' => '',
-    'likes' => ''
+    'title' => 'The Heart of a Dog',
+    'content' => file_get_contents(__DIR__.'/txts/001.txt'),
+    'author' => 2,
+    'pblsh-date' => '2018-10-24',
+    'likes' => '5'
   ],
   [
-    'title' => '',
-    'content' => '',
-    'author' => '',
-    'pblsh-date' => '',
-    'likes' => ''
-  ],
-  [
-    'title' => '',
-    'content' => '',
-    'author' => '',
-    'pblsh-date' => '',
-    'likes' => ''
-  ],
-  [
-    'title' => '',
-    'content' => '',
-    'author' => '',
-    'pblsh-date' => '',
-    'likes' => ''
+    'title' => 'Second article',
+    'content' => file_get_contents(__DIR__.'/txts/002.txt'),
+    'author' => 0,
+    'pblsh-date' => 's',
+    'likes' => 'def'
   ],
 ];
 
 $authors = [
   [
-    'name' => '',
-    'id' => '',
+    'name' => 'Nikolay Gogol',
+    'id' => '0',
+  ],
+  [
+    'name' => 'Lev Tolstoy',
+    'id' => '1',
+  ],
+  [
+    'name' => 'Mikahil Bulgakov',
+    'id' => '2',
+  ],
+  [
+    'name' => 'Boris Pasternak',
+    'id' => '3',
+  ],
+  [
+    'name' => 'Anna Akhmatova',
+    'id' => '4',
   ]
 ];
-
-print_r ($articles[0]);
-
-echo '<br>';
-
-print_r ($authors[0]);
