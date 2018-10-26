@@ -1,9 +1,6 @@
 <?php
 
-declare(strict_types=1);
 
-require __DIR__.'/data.php';
-require __DIR__.'/functions.php';
 
 ?>
 
@@ -13,22 +10,27 @@ require __DIR__.'/functions.php';
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Fakey Flakey News Flow</title>
   </head>
   <body>
-    <h1>FAKE NEWS</h1>
-    <hr>
 
-    <!-- <php usort($articles, 'sortByDate');?> -->
+    <header>
+      <h1>Fake News</h1>
+      <nav class="nav">
+        <a href="index.php">Home</a>
+      </nav>
+    </header>
 
-    <?php foreach ($articles as $article) : ?>
-    <div class="article">
-      <h3><?= $article['title'] ?></h3>
-      <h6><?= getAuthor($authors, $article['author']) ?></h6>
-      <p><?= substr($article['content'], 0, 200).'...'; ?></p>
+    <div class="main">
+
+      <div class="article">
+        <h3>Title</h3>
+        <hr>
+      </div>
+
     </div>
 
-    <?php endforeach; ?>
 
   </body>
 </html>

@@ -5,6 +5,12 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 
 <!-- TODO:
+
+        -naming conventions: should I call an item in an array name-name or nameName ? for consistency...
+
+        -authors array: Should I include the ID to be displaye don the webpage?
+                        Is there a way of creating an ID and fetching the author name by checking for matching ID between the two arrays?
+
         -create array for articles
 
         -create 'function'/feature/way of ordering news items chronologically
@@ -50,3 +56,5 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 24, 2018
 
 - [ ] Create index.php including html and main loops
+- [ ] Create html markup
+- [ ] Style with css
