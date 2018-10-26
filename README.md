@@ -55,6 +55,6 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ##### October 24, 2018
 
-- [ ] Create index.php including html and main loops
-- [ ] Create html markup
-- [ ] Style with css
+- [ ] Create index.php including html markup and main loops
+- [x] Create html markup
+- [x] Style with css

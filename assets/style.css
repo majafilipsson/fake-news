@@ -1,7 +1,11 @@
 body {
-  background-color: blanchedalmond;
+  background-color: #e0e0e0;
 }
 
 .article {
-  background-color: cornsilk;
+  background-color: #fafafa;
+}
+
+.inline-block {
+  display: inline-block;
 }
