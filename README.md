@@ -68,6 +68,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 - [ ] Test project on classmates' computers
 - [ ] Trim and add finishing touches
+- [ ] .editorconfig, readme.md, license
 
 ##### Extras
 
