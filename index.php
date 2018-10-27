@@ -39,7 +39,7 @@ require __DIR__.'/assets/functions.php';
         <hr>
         <p class="font-italic"><?= 'Published on ' . getPblshDate($article['pblsh-date']) ?></p>
         <p><?= substr($article['content'], 0, 200).'...'; ?></p>
-        <img class="inline-block" src="img/like.png"><small class="inline-block">15 likes</small>
+        <img class="inline-block" src="img/like.png"><small class="inline-block"><?= $article['likes'] . ' likes' ?></small>
       </div>
     <?php endforeach; ?>
 
