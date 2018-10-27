@@ -1,7 +1,7 @@
 # fake-news
 
 ### Description
-First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed mainly using php.
+First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed mainly using php, html, and css.
 
 
 <!-- TODO:
@@ -14,6 +14,13 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
                         Is there a way of creating an ID and fetching the author name by checking for matching ID between the two arrays?
 
         -make sure my .editorconfig and readme-files are approved
+
+        -check what needs type declarations (data within arrays?)
+
+        -should I put the usort() function in functions.php?
+        -should I declare types within my functions too? Look at functions.. like the compare function for instance.
+        (add those blocks with @param before functions)
+        -add descriptions in comments of what my code does
 
         -->
 
@@ -42,12 +49,12 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 18, 2018
 
 - [x] Plan project structure and create to-do list (README.md)
-- [x] Read up on file_get_contents function and implement for txt-files
 - [ ] Read up on editorconfig
 - [ ] Create editorconfig
 - [x] Create array for articles
 - [x] Create array for authors
 - [x] Create txt files and fill with content
+- [x] Read up on file_get_contents function and implement for txt-files
 
 ##### October 24, 2018
 
@@ -75,5 +82,6 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 - [ ] Create img folder and add images
 - [ ] Create a way of fetching authors using the id
 - [ ] Add some cool links to webpage (like Wikipedias for authors)
+- [ ] Create real like-function for user interaction
 - [ ] Figure out a way to display parts of content from txt files (use substr perhaps, but don't cut words in half), and include expand/continue reading link
 - [ ] Create a real database (instead of using the two arrays) and implement

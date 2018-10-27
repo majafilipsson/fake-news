@@ -56,3 +56,27 @@ $authors = [
     'id' => '4',
   ]
 ];
+
+// foreach ($articles as $article){
+//   $timestamp = strtotime($article['pblsh-date']);
+//   echo $timestamp;
+//   echo '<br>';
+// }
+//
+// sort()
+
+// print_r($articles)
+
+
+function compare($a, $b) {
+  $timestampA = strtotime($a['pblsh-date']);
+  $timestampB = strtotime($b['pblsh-date']);
+  if ($timestampA == $timestampB) {
+    return 0;
+  }
+  return ($timestampA < $timestampB) ? 1 : -1;
+}
+
+usort($articles, "compare");
+
+print_r($articles);

@@ -29,6 +29,7 @@ require __DIR__.'/assets/functions.php';
       </nav>
     </div>
 
+    <?php usort($articles, "compare"); ?>
     <?php foreach ($articles as $article) : ?>
       <div class="shadow p-3 m-4 rounded article">
         <div class="bg-transparent clearfix">
@@ -36,7 +37,7 @@ require __DIR__.'/assets/functions.php';
           <p class="float-right mb-0"><?= getAuthor($authors, $article['author']) ?></p>
         </div>
         <hr>
-        <p class="font-italic"><?= 'Published on ' . $article['pblsh-date'] ?></p>
+        <p class="font-italic"><?= 'Published on ' . getPblshDate($article['pblsh-date']) ?></p>
         <p><?= substr($article['content'], 0, 200).'...'; ?></p>
         <img class="inline-block" src="img/like.png"><small class="inline-block">15 likes</small>
       </div>
