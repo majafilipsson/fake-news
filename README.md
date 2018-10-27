@@ -6,17 +6,14 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 <!-- TODO:
 
-        -naming conventions: should I call an item in an array name-name or nameName ? for consistency...
+    Questions to be ckecked with supervisor:
 
-        -authors array: Should I include the ID to be displaye don the webpage?
+        -naming conventions: should I call an item in an array name-name or nameName ? for consistency... (see 'pblsh-date' in $articles array)
+
+        -authors array: Should I include the ID to be displayed on the webpage?
                         Is there a way of creating an ID and fetching the author name by checking for matching ID between the two arrays?
 
-        -create array for articles
-
-        -create 'function'/feature/way of ordering news items chronologically
-        -create content files and fill with text
-        -create image folder for images
-        -figure out how to 'style' content which is stored in txt files
+        -make sure my .editorconfig and readme-files are approved
 
         -->
 
@@ -37,7 +34,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 - footer.php - will contain footer for index.php
 
-- functions.php - (not yet sure if to be created) (would contain functions) (would be used to require for example data.php using a function, so that only the function need be called in index.php, to simplify use of databases.) (in conslusion, will only be created if I decide to use database and sql, meaning, 2nd version if time allows.)
+- functions.php - (not yet sure if to be created) (would contain functions)
 
 
 ### TO-DO list:
@@ -45,16 +42,37 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 18, 2018
 
 - [x] Plan project structure and create to-do list (README.md)
-- [x] Read up on file_get_contents function and implement
+- [x] Read up on file_get_contents function and implement for txt-files
 - [ ] Read up on editorconfig
 - [ ] Create editorconfig
-- [ ] Create array for articles
-- [ ] Create array for authors
-- [ ] Create txt files for text content
-- [ ] Create img folder and add images
+- [x] Create array for articles
+- [x] Create array for authors
+- [x] Create txt files and fill with content
 
 ##### October 24, 2018
 
-- [ ] Create index.php including html markup and main loops
 - [x] Create html markup
 - [x] Style with css
+- [x] Create main loops and functions for index.php, make sure:
+- All articles can be printed using foreach loop
+- Author, title, content, likes, publishing date is included for all articles
+- Create a function to fetch author(s)
+
+##### October 27, 2018
+
+- [ ] Create function to order articles chronologically
+- [ ] Sanitize and improve array-content and txt files content
+- [ ] Go through assignment on github to ensure all requirements are met
+
+##### October 29, 2018
+
+- [ ] Test project on classmates' computers
+- [ ] Trim and add finishing touches
+
+##### Extras
+
+- [ ] Create img folder and add images
+- [ ] Create a way of fetching authors using the id
+- [ ] Add some cool links to webpage (like Wikipedias for authors)
+- [ ] Figure out a way to display parts of content from txt files (use substr perhaps, but don't cut words in half), and include expand/continue reading link
+- [ ] Create a real database (instead of using the two arrays) and implement
