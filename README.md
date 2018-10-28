@@ -22,6 +22,12 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
         (add those blocks with @param before functions)
         -add descriptions in comments of what my code does
 
+        -which functions should go in functions.php file?
+
+        -ask about how things are supposed to be divided - (header.php, index.php, footer.php - where do types declarations go, where do I require functions.php)
+
+        -indentation in index.php (and header.php and footer.php)
+
         -->
 
 
@@ -37,11 +43,13 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 - posts.php - file containing foreach loop looping through articles and some html tags to structure content for each post (will be 'required' in index.php)
 
-- header.php - will contain header for index.php
+- header.php - Header for index.php, including html markup for nav bar
 
-- footer.php - will contain footer for index.php
+- footer.php - Footer for index.php
 
-- functions.php - (not yet sure if to be created) (would contain functions)
+- functions.php - Contains getAuthor, compare, and getPblshDate functions
+
+- content: Folder containing txt files with text content for each article
 
 
 ### TO-DO list:
@@ -67,7 +75,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ##### October 27, 2018
 
-- [ ] Create function to order articles chronologically
+- [x] Create function to order articles chronologically
 - [ ] Sanitize and improve array-content and txt files content
 - [ ] Go through assignment on github to ensure all requirements are met
 
