@@ -3,12 +3,23 @@
 ### Description
 First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed mainly using php, html, and css.
 
+### Installation Guide:
+
+1. Clone the directory:  
+    ```
+    git clone https://github.com/majafilipsson/fake-news.git
+    ```
+2. Ensure your webserver root covers the cloned repository.
+
+3. Open project in browser, enjoy!
+
 
 <!-- TODO:
 
     Questions to be ckecked with supervisor:
 
-    INSTALLATIONS GUIDE!
+
+    TESTERS!
 
         -naming conventions: should I call an item in an array name-name or nameName ? for consistency... (see 'pblsh-date' in $articles array)
 
@@ -37,23 +48,25 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ### Project structure:
 
-- index.php - my main file where I will basically 'link'/require all other files; to be run in browser; will basically contain the structure 'require data.php, require header.php, require posts.php, require footer.php'
+- `index.php` - my main file where I will basically 'link'/require all other files; will basically contain the structure 'require data.php, require functions.php, require header.php, require articles.php, require footer.php'
 
-- data.php - file containing array with data concerning articles
-  - txt files - files containing text content of articles (to be linked to data.php)
-  - img folder - folder containing images for articles (also to be 'linked' in data.php)
+- `data.php` - file containing arrays with data concerning articles
+  - txt files - files containing text content of articles (to be linked to data.php) (to be found in folder 'content')
+  - img folder - folder containing images for project
 
 
+- `articles.php` - file containing foreach loop looping through articles and some html tags to structure content for each post
 
-- posts.php - file containing foreach loop looping through articles and some html tags to structure content for each post (will be 'required' in index.php)
+- `header.php` - Header for index.php, including html markup for nav bar
 
-- header.php - Header for index.php, including html markup for nav bar
+- `footer.php` - Footer for index.php
 
-- footer.php - Footer for index.php
+- `functions.php` - Contains getAuthor, compare, and getPblshDate functions
 
-- functions.php - Contains getAuthor, compare, and getPblshDate functions
 
-- content: Folder containing txt files with text content for each article
+### Testers
+
+
 
 
 ### TO-DO list:
@@ -61,8 +74,8 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 18, 2018
 
 - [x] Plan project structure and create to-do list (README.md)
-- [ ] Read up on editorconfig
-- [ ] Create editorconfig
+- [x] Read up on editorconfig
+- [x] Create editorconfig
 - [x] Create array for articles
 - [x] Create array for authors
 - [x] Create txt files and fill with content
@@ -80,7 +93,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 27, 2018
 
 - [x] Create function to order articles chronologically
-- [ ] Sanitize and improve array-content and txt files content
+- [x] Sanitize and improve array-content and txt files content
 - [ ] Go through assignment on github to ensure all requirements are met
 
 ##### October 29, 2018
