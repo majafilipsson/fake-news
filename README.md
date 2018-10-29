@@ -18,8 +18,6 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
         TESTERS!
 
-        -add descriptions in comments of what my code does
-
         -->
 
 
@@ -28,8 +26,8 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 - `index.php` - my main file where I will basically 'link'/require all other files; will basically contain the structure 'require data.php, require functions.php, require header.php, require articles.php, require footer.php'
 
 - `data.php` - file containing arrays with data concerning articles
-  - txt files - files containing text content of articles (to be linked to data.php) (to be found in folder 'content')
-  - img folder - folder containing images for project
+  - txt files - files containing text content of articles (to be linked to in data.php) (to be found in folder 'content')
+  - img folder - folder containing images for project (could be tied to data.php in the future)
 
 
 - `articles.php` - file containing foreach loop looping through articles and some html tags to structure content for each post
@@ -38,12 +36,15 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 - `footer.php` - Footer for index.php
 
-- `functions.php` - Contains getAuthor, compare, and getPblshDate functions
+- `functions.php` - contains getAuthor, compare, and getPblshDate functions
 
 
 ### Testers
 
-
+| Tester     | OS     | Browser  | Status       |
+| -----------|--------| ---------|--------------|
+| Benji      | Mac    | Chrome   | Not working  |
+| Ida        | Windows| Chrome   | Not working  |
 
 
 ### TO-DO list:
@@ -76,7 +77,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### October 29, 2018
 
 - [ ] Test project on classmates' computers
-- [ ] Trim and add finishing touches
+- [ ] Touch up
 - [x] .editorconfig, readme.md, license
 
 ##### Extras
