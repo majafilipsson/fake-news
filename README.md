@@ -8,6 +8,8 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
     Questions to be ckecked with supervisor:
 
+    INSTALLATIONS GUIDE!
+
         -naming conventions: should I call an item in an array name-name or nameName ? for consistency... (see 'pblsh-date' in $articles array)
 
         -authors array: Should I include the ID to be displayed on the webpage?
@@ -15,7 +17,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
         -make sure my .editorconfig and readme-files are approved
 
-        -check what needs type declarations (data within arrays?)
+        -type declarations for compare function can't be used!
 
         -should I put the usort() function in functions.php?
         -should I declare types within my functions too? Look at functions.. like the compare function for instance.
@@ -27,6 +29,8 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
         -ask about how things are supposed to be divided - (header.php, index.php, footer.php - where do types declarations go, where do I require functions.php)
 
         -indentation in index.php (and header.php and footer.php)
+
+        -are docblocks mandatory?
 
         -->
 

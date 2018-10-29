@@ -1,5 +1,4 @@
 <?php
-
 declare(strict_types=1);
 
 $articles = [
@@ -79,22 +78,22 @@ $articles = [
 $authors = [
   [
     'name' => 'Nikolay Gogol',
-    'id' => '0',
+    'id' => 0,
   ],
   [
     'name' => 'Joan English',
-    'id' => '1',
+    'id' => 1,
   ],
   [
     'name' => 'Mikahil Bulgakov',
-    'id' => '2',
+    'id' => 2,
   ],
   [
     'name' => 'John Rasnick',
-    'id' => '3',
+    'id' => 3,
   ],
   [
     'name' => 'Nom DePlum',
-    'id' => '4',
+    'id' => 4,
   ]
 ];
