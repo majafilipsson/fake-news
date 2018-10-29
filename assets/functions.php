@@ -20,8 +20,8 @@ function getAuthor(array $authors, int $authorId): string
  */
 function compare(array $a, array $b): int
 {
-  $timestampA = strtotime($a['pblsh-date']);
-  $timestampB = strtotime($b['pblsh-date']);
+  $timestampA = strtotime($a['pblsh_date']);
+  $timestampB = strtotime($b['pblsh_date']);
   // if ($timestampA == $timestampB) {
   //       return 0;
   //   }
