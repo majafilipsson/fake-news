@@ -41,10 +41,10 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ### Testers
 
-| Tester     | OS     | Browser  | Status       |
-| -----------|--------| ---------|--------------|
-| Benji      | Mac    | Chrome   | Not working  |
-| Ida        | Windows| Chrome   | Not working  |
+| Tester     | OS             | Browser        | Status       |
+| -----------|----------- ----| ---------------|--------------|
+| Benji      | MacOS 10.13.6  | Firefox 64.0b3 | Working      |
+| Ida        | Windows 10 Home| Chrome 70      | Working      |
 
 
 ### TO-DO list:
@@ -76,12 +76,13 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ##### October 29, 2018
 
-- [ ] Test project on classmates' computers
-- [ ] Touch up
+- [x] Test project on classmates' computers
+- [x] Touch up
 - [x] .editorconfig, readme.md, license
 
 ##### Extras
 
+- [x] Personalize styling
 - [ ] Create img folder and add images
 - [ ] Create a way of fetching authors using the id
 - [ ] Add some cool links to webpage (like Wikipedias for authors)
