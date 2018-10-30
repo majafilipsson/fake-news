@@ -41,10 +41,10 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 ### Testers
 
-| Tester     | OS             | Browser        | Status       |
-| -----------|----------- ----| ---------------|--------------|
-| Benji      | MacOS 10.13.6  | Firefox 64.0b3 | Working      |
-| Ida        | Windows 10 Home| Chrome 70      | Working      |
+| Tester            | OS              | Browser        | Status       |
+| ------------------|-----------------| ---------------|--------------|
+| Benjamin Fransson | MacOS 10.13.6   | Firefox 64.0b3 | Working      |
+| Ida Hallner       | Windows 10 Home | Chrome 70      | Working      |
 
 
 ### TO-DO list:
