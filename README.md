@@ -14,13 +14,6 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 3. Open project in browser, enjoy!
 
 
-<!-- TODO:
-
-        TESTERS!
-
-        -->
-
-
 ### Project structure:
 
 - `index.php` - my main file where I will basically 'link'/require all other files; will basically contain the structure 'require data.php, require functions.php, require header.php, require articles.php, require footer.php'
@@ -38,6 +31,13 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 
 - `functions.php` - contains getAuthor, compare, and getPblshDate functions
 
+#### Future additions to project:
+
+- `authors.php` - Will contain info about authors.
+
+- `popular.php` - Will contain collection of most popular articles.
+
+- `contact.php` - Will contain contact details.
 
 ### Testers
 
@@ -83,6 +83,7 @@ First php-assignment for Webutvecklare 2018 @ Yrgo. Create a simple news feed ma
 ##### Extras
 
 - [x] Personalize styling
+- [x] Add some links
 - [ ] Create img folder and add images
 - [ ] Create a way of fetching authors using the id
 - [ ] Add some cool links to webpage (like Wikipedias for authors)

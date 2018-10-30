@@ -17,9 +17,9 @@ declare(strict_types=1);
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-secondary text-light border-bottom shadow-sm">
         <h3 class="my-0 mr-md-auto font-weight-normal">Fake News</h3>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-light" href="#">Popular</a>
-            <a class="p-2 text-light" href="#">Latest</a>
-            <a class="p-2 text-light" href="#">Authors</a>
-            <a class="p-2 text-light" href="#">Contact</a>
+            <a class="p-2 text-light" href="index.php">Home</a>
+            <a class="p-2 text-light" href="popular.php">Popular</a>
+            <a class="p-2 text-light" href="authors.php">Authors</a>
+            <a class="p-2 text-light" href="contact.php">Contact</a>
         </nav>
     </div>

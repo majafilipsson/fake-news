@@ -85,7 +85,7 @@ $authors = [
     'id' => 1,
   ],
   [
-    'name' => 'Mikahil Bulgakov',
+    'name' => 'Mikhail Bulgakov',
     'id' => 2,
   ],
   [
